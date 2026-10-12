@@ -1,0 +1,13 @@
+{
+  "name": "height-stretch-repro-rspack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Rspack repro: lightningcss panics on height: stretch when vendor prefixes are forced.",
+  "scripts": {
+    "build": "rspack build"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.2.8",
+    "@rspack/core": "2.2.8"
+  }
+}
